@@ -18,12 +18,13 @@ Resumen
 
 Input
 : Contiene las entradas `D C B A` considerando los pesos binarios.
-    |Variable|Peso|
-    |--------|----|
-    |   A    |  1 |
-    |   B    |  2 |
-    |   C    |  4 |
-    |   D    |  8 |
+
+|Variable|Peso|
+|--------|----|
+|   A    |  1 |
+|   B    |  2 |
+|   C    |  4 |
+|   D    |  8 |
 
 
 Ouput
