@@ -1,20 +1,15 @@
 
 package entidades;
 
-/**
- *
- * @author Jsmith
- */
+
 public class Combinaciones {
-
-    
-
+    private static int[] combinaciones= new int[7];
     public Combinaciones() {
         //combinaciones = new int[7];
     }
 
     public static int[] combinacion(int valor) {
-        int[] combinaciones=new int[7];
+        //int[] combinaciones=new int[7];
         switch (valor) {
             case 0:
                 combinaciones = combinacion0();
@@ -99,5 +94,13 @@ public class Combinaciones {
     public static int[] combinacion9() {
         int[] combinaciones = {1, 1, 1, 0, 0, 1, 1};
         return combinaciones;
+    }
+    
+    public static String combinacion(){
+        String mensaje="";
+        for (int i = 0; i < combinaciones.length; i++) {
+            mensaje+=" "+combinaciones[i]; 
+        }
+        return mensaje;
     }
 }
